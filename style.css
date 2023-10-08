@@ -1,0 +1,190 @@
+
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #f5f5f5;
+      padding: 10px 20px;
+    }
+    
+    .header-left {
+      flex-grow: 1;
+    }
+    
+    .header-right {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    
+    .company-info {
+      display: flex;
+    }
+    
+    .company-info div {
+      margin-right: 20px;
+    }
+    
+    .company-info div:last-child {
+      margin-right: 0;
+    }
+    
+    .header-left h1 {
+      margin: 0;
+    }
+    
+    .header-right p {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    
+
+    button {
+        border-radius: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+
+    }
+
+    button:hover{
+        background-color: rgb(96, 255, 210) ; 
+        transition: background-color 1s ;
+    }
+
+    button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    body {
+        /*background-image: url("images/back.jpg");*/
+        background-color: rgb(93, 124, 114);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .file {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+
+        
+        
+    }
+
+    .file1 {
+        width: 100%;
+        padding: 10px;
+
+        
+    }
+
+    .text img{
+        width: 250px ;
+    }
+    
+
+    .text {
+        color: #000000;
+        background-color:  #f5f5f5;
+        /*background-image: url(images/back.jpg);*/
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+
+        
+    }
+
+    .podpis{
+        text-align: center;
+
+        
+    }
+
+    .gallery{
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        
+    
+        
+
+        
+    }
+
+    .obraz {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .podzial {
+
+        justify-content: center; /* Wyśrodkowuje zawartość poziomo */
+        align-items: center; /* Wyśrodkowuje zawartość pionowo */
+        text-align: center;
+        background-image: url(images/back.jpg);
+        padding: 10px ;
+
+
+       
+    }
+
+    .podzial img {
+        width: 300px;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    .image{
+        
+        justify-content: center; /* Wyśrodkowuje zawartość poziomo */
+        align-items: center; /* Wyśrodkowuje zawartość pionowo */
+        text-align: center;
+        /*background-image: url(images/back3.jpg);*/
+    }
+
+
+    footer {
+        background-color: white;
+        padding: 15px;
+        text-align: center;
+        margin-top: 1%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+      
+      .header-right {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+      .header-right p {
+        font-size: 15px;
+      }
+      
+      .company-info {
+        flex-direction: column;
+      }
+      
+      .company-info div {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+        
